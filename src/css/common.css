@@ -1,0 +1,186 @@
+* {
+    /*
+    border: 1px solid black;
+    */
+    text-align: center;
+}
+
+.square {
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn-like {
+    cursor: pointer;
+}
+
+.btn-like.on {
+    animation: beating .5s 1 alternate;
+}
+
+@keyframes beating {
+    0% {transform: scale(1);}
+    40% {transform: scale(1.25);}
+    70% {transform: scale(0.9);}
+    100% {transform: scale(1);}
+}
+
+li::marker {
+    display: none;
+    color: white;
+}
+
+li:hover {
+    font-weight: bold;
+}
+
+ul, li {
+    list-style: none;
+    width: 100%;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.li-delete {
+    color: rgb(92, 7, 7);
+}
+
+.slick-track {
+    width: 100%;
+}
+
+.slick-slide {
+    width: 100%;
+}
+
+.slick-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.hashTags {
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+}
+
+.hashTags p {
+    color: rgb(42, 118, 200);
+    margin: 0.1em;
+    cursor: pointer;
+}
+
+.media-item-div {
+    /*
+    width: 100%;
+    max-height: 15em;
+    */
+    
+    overflow:hidden;
+}
+
+.media-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slick-slide > div {
+    max-height: 25em;
+}
+
+.slick-dots li button:before {
+    color: white;
+}
+
+.slick-dots li.slick-active button:before {
+    color:white !important;
+}
+
+.header {
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+}
+
+.header h2 {
+    margin-top: 14px;
+}
+
+.info-header {
+    display: flex;
+    height: 70px;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+}
+
+.info {
+    float: left;
+    flex: 9;
+}
+
+.round-image {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    margin: 7px;
+}
+
+.round-image, .profile-info {
+    float: left;
+}
+
+.profile-info div {
+    text-align: left;
+}
+
+.creator-name {
+    font-size: 1em;
+    margin-top: 6px;
+}
+
+.account-name {
+    font-size: 0.8em;
+}
+
+.vertical-dot-svg {
+    margin-top: 20px;
+    margin-right: 18px;
+    float: right;
+    cursor: pointer;
+}
+
+.createdDate {
+    font-size: 0.8em;
+    opacity: 80%;
+    margin-left: 10px;
+    margin-top: 8px;
+    float: left;
+}
+
+.card-contents {
+    font-size: 1em;
+    text-align: left;
+    margin: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    border-top: 1px solid rgba(0, 0, 0, .5);
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+    margin: 5px;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons div {
+    margin: 10px;
+}
+
+.icons-final {
+    flex: 9;
+}

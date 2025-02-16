@@ -1,0 +1,123 @@
+.follow-div {
+    display: flex;
+    margin: 20px;
+}
+
+.follow-div-first {
+    flex: 9;
+}
+
+.follow-div-second {
+    padding: 0.5em;
+    margin-right: 1em;
+}
+
+.follow {
+    text-align: left;
+}
+
+.follow-img {
+    border-radius: 100%;
+    width: 2em;
+    height: 2em;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.follow-item {
+    width: 100%;
+    text-align: left;
+}
+
+.follow-item-info {
+    text-align: left;
+    display: flex;
+}
+
+.follow-item-info-account {
+    margin-left: 0.4em;
+    margin-top: 0.3em;
+    font-size: 0.8em;
+}
+
+.info-vertical-dot {
+    cursor: pointer;
+}
+
+.user-profile-image {
+    border-radius: 100%;
+    width: 12em;
+    height: 12em;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.user-info-flex {
+    display: flex;
+    position: relative;
+}
+
+.user-profile {
+    flex: 3;
+}
+
+.user-profile-info, .user-profile-follow {
+    float: left;
+    text-align: left;
+    flex: 2;
+}
+
+.user-profile-follow {
+    float: right;
+    margin-left: 20px;
+    flex: 1;
+}
+
+.user-info-name {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.user-info-account {
+    opacity: 80%;
+}
+
+.user-contact {
+    margin-top: 50px;
+    width: 100%;
+    position : absolute;
+    bottom : -3em;
+}
+
+.user-info-email, .user-info-link {
+    cursor: pointer;
+}
+
+.info-label {
+    margin-top: 5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid rgba(0, 0, 0, .5);
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+}
+
+.info-label div:hover {
+    font-weight: bold;
+}
+
+.info-label div {
+    cursor: pointer;
+}
+
+.media-img-list {
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.media-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
